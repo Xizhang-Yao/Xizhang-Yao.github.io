@@ -6,7 +6,53 @@ redirect_from:
   - /about/
   - /about.html
 ---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>图片轮播</title>
+<style>
+  .carousel {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    overflow: hidden;
+  }
+  .carousel img {
+    width: 100%;
+    display: none;
+  }
+  .carousel img.active {
+    display: block;
+  }
+</style>
+</head>
+<body>
 
+<div class="carousel">
+  <img src="image1.jpg" alt="Image 1" class="active">
+  <img src="image2.jpg" alt="Image 2">
+  <img src="image3.jpg" alt="Image 3">
+  <!-- 更多图片 -->
+</div>
+
+<script>
+  const images = document.querySelectorAll('.carousel img');
+  let index = 0;
+
+  function changeImage() {
+    images[index].classList.remove('active');
+    index = (index + 1) % images.length;
+    images[index].classList.add('active');
+  }
+
+  setInterval(changeImage, 3000);
+</script>
+
+</body>
+</html>
 ## About Our Lab
 <div style="text-align:justify;">
 Associate Professor Guanghui Yue's research Lab specializes in intelligent medical image processing, and includes students Xizhang Yao and Songbai Tan.
