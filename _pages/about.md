@@ -13,7 +13,7 @@ Associate Professor Yue Guanghui's research group specializes in intelligent med
 
 ## News
 <div style="text-align:justify;">
-&#x1F44F;&#x1F44F;&#x1F44F;One Paper <a href="https://www.example.com">*******</a> is accepted by IEEE Transactions on Image Processing!！！
+&#x1F44F;&#x1F44F;&#x1F44F;One Paper <a href="https://www.example.com">*******</a> is accepted by IEEE Transactions on Image Processing !!!
 </div>
 
 
