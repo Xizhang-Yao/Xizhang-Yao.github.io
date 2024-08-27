@@ -1,1 +1,9 @@
+---
+permalink: /Positions/
+title: "Positions"
+author_profile: true
+redirect_from: 
+  - /position/
+  - /position.html
+---
 
