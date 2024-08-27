@@ -57,8 +57,8 @@ redirect_from:
     <img src="/images/yaoxizhang_jianshen.png" alt="Xizhang Yao">
     <div class="member-info">
       <div class="member-title">Xizhang Yao 姚习章</div>
-      <div>PhD student starting from 2020.</div>
-      <div>Interested in learning models and multi-modal applications of foundation.</div>
+      <div>PhD student starting from 2024.</div>
+      <div>Interested in image quality assessment.</div>
     </div>
   </div>
   <!-- 更多博士生... -->
@@ -68,8 +68,8 @@ redirect_from:
     <img src="/images/tansongbai.png" alt="Songbai Tan">
     <div class="member-info">
       <div class="member-title">Songbai Tan 谭松柏</div>
-      <div>PhD student starting from 2021.</div>
-      <div>Interested in autonomous driving.</div>
+      <div>Master student starting from 2022.</div>
+      <div>Interested in image quality assessment.</div>
     </div>
   </div>
   <!-- 更多硕士生... -->
