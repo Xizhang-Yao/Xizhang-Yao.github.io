@@ -12,29 +12,27 @@ redirect_from:
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>圆形图片轮播</title>
+<title>图片转盘</title>
 <style>
   .carousel {
     position: relative;
     width: 300px;
     height: 300px;
     border-radius: 50%;
-    border: 2px solid #000;
     overflow: hidden;
     margin: 50px auto;
   }
   .carousel img {
     position: absolute;
-    top: 50%;
-    left: 50%;
     width: 100%;
-    height: auto;
-    transform: translate(-50%, -50%) rotate(0deg);
-    transition: transform 0.5s ease-in-out;
+    height: 100%;
+    object-fit: cover;
   }
-  .hidden {
-    display: none;
-  }
+  .carousel img:nth-child(1) { transform: rotate(0deg) translate(50%); }
+  .carousel img:nth-child(2) { transform: rotate(-45deg) translate(50%); }
+  .carousel img:nth-child(3) { transform: rotate(-90deg) translate(50%); }
+  .carousel img:nth-child(4) { transform: rotate(-135deg) translate(50%); }
+  /* 根据图片数量继续添加 */
 </style>
 </head>
 <body>
@@ -43,6 +41,7 @@ redirect_from:
   <img src="/images/xiaoyue.png" alt="Image 1">
   <img src="/images/xiaoyue.png" alt="Image 2">
   <img src="/images/xiaoyue.png" alt="Image 3">
+  <img src="/images/xiaoyue.png" alt="Image 4">
   <!-- 更多图片 -->
 </div>
 
@@ -53,8 +52,9 @@ redirect_from:
 
   function rotateCarousel() {
     index = (index + 1) % totalImages;
-    images.forEach(img => img.style.transform = 'translate(-50%, -50%) rotate(0deg)');
-    images[index].style.transform = `translate(-50%, -50%) rotate(${-360 / totalImages * index}deg)`;
+    const carousel = document.querySelector('.carousel');
+    carousel.style.transition = 'transform 1s';
+    carousel.style.transform = `rotate(${-360 / totalImages * index}deg)`;
   }
 
   setInterval(rotateCarousel, 3000);
