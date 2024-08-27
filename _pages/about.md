@@ -1,15 +1,15 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "Y-Lab: Intelligent Biomedical Image Processing"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-## About Me
+## About Our Lab
 <div style="text-align:justify;">
-Associate Professor Guanghui Yue's research group specializes in intelligent medical image processing, and includes students Xizhang Yao and Songbai Tan.
+Associate Professor Guanghui Yue's research Lab specializes in intelligent medical image processing, and includes students Xizhang Yao and Songbai Tan.
 </div>
 
 ## News
