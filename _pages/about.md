@@ -8,7 +8,7 @@ redirect_from:
 ---
 ## About Me
 <div style="text-align:justify;">
-Associate Professor Yue Guanghui's research group specializes in intelligent medical image processing, and includes master's students Yao Xizhang and Tan Songbai.
+Associate Professor Guanghui Yue's research group specializes in intelligent medical image processing, and includes students Xizhang Yao and Songbai Tan.
 </div>
 
 ## News
@@ -16,6 +16,10 @@ Associate Professor Yue Guanghui's research group specializes in intelligent med
 &#x1F44F;&#x1F44F;&#x1F44F;One Paper <a href="https://www.example.com">*******</a> is accepted by IEEE Transactions on Image Processing !!!
 </div>
 
+## Projects
+<div style="text-align:justify;">
+<a href="https://www.example.com">Project One </a> is here.
+</div>
 
 <!--
 
