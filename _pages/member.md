@@ -44,7 +44,7 @@ redirect_from:
 <div class="team-container">
   <!-- 导师 -->
   <div class="member">
-    <img src="image/xiaoyue.png" alt="Dr. Xiao Yue">
+    <img src="/images/xiaoyue.png" alt="Dr. Xiao Yue">
     <div class="member-info">
       <div class="member-title">Dr. Xiao Yue </div>
       <div>Assistant Professor at IllS, Tsinghua University.</div>
@@ -54,7 +54,7 @@ redirect_from:
   
   <!-- 博士生 -->
   <div class="member">
-    <img src="image/yicun.png" alt="Xizhang Yao">
+    <img src="/images/yicun.png" alt="Xizhang Yao">
     <div class="member-info">
       <div class="member-title">Xizhang Yao 姚习章</div>
       <div>PhD student starting from 2020.</div>
@@ -65,7 +65,7 @@ redirect_from:
   
   <!-- 硕士生 -->
   <div class="member">
-    <img src="images/tansongbai.png" alt="Songbai Tan">
+    <img src="/images/tansongbai.png" alt="Songbai Tan">
     <div class="member-info">
       <div class="member-title">Songbai Tan 谭松柏</div>
       <div>PhD student starting from 2021.</div>
