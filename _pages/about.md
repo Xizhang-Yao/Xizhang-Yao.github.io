@@ -69,8 +69,8 @@ redirect_from:
 <body>
 
 <div class="carousel">
-  <img src="/images/xiaoyue.png" alt="Image 1" class="active">
-  <img src="/images/xiaoyue.png" alt="Image 2">
+  <img src="/images/YanzuWu.png" alt="Image 1" class="active">
+  <img src="/images/TingfengXie.png" alt="Image 2">
   <img src="/images/xiaoyue.png" alt="Image 3">
   <!-- 更多图片 -->
   <div class="carousel-indicators">
