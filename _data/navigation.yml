@@ -20,8 +20,11 @@ main:
   - title: "Blog Posts"
     url: /year-archive/
     
-  - title: "Positions"
+  - title: "CV"
     url: /cv/
+
+  --title: "Positions"
+    url: /position/
     
   - title: "Album"
     url: /markdown/
