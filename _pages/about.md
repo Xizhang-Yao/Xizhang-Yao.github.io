@@ -6,30 +6,31 @@ redirect_from:
   - /about/
   - /about.html
 ---
-## About Me
-<div style="text-align:justify;">
-Associate Professor Guanghui Yue's research group specializes in intelligent medical image processing, and includes students Xizhang Yao and Songbai Tan.
-</div>
 
-## News
-<div style="text-align:justify;">
-&#x1F44F;&#x1F44F;&#x1F44F;One Paper <a href="https://www.example.com">*******</a> is accepted by IEEE Transactions on Image Processing !!!
-</div>
-
-## Projects
-<div style="text-align:justify;">
-<a href="https://www.example.com">Project One </a> is here.
-</div>
+<!DOCTYPE html>
+<html lang="en">
 <head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>圆形图片轮播</title>
 <style>
   .carousel {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 2px solid #000;
     overflow: hidden;
-    white-space: nowrap;
-    width: 600px; /* 轮播容器的宽度 */
+    margin: 50px auto;
   }
   .carousel img {
-    width: 600px; /* 图片的宽度，与容器宽度相同 */
-    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: auto;
+    transform: translate(-50%, -50%) rotate(0deg);
+    transition: transform 0.5s ease-in-out;
   }
   .hidden {
     display: none;
@@ -50,15 +51,33 @@ Associate Professor Guanghui Yue's research group specializes in intelligent med
   const images = document.querySelectorAll('.carousel img');
   const totalImages = images.length;
 
-  function nextImage() {
+  function rotateCarousel() {
     index = (index + 1) % totalImages;
-    images.forEach(img => img.classList.add('hidden'));
-    images[index].classList.remove('hidden');
+    images.forEach(img => img.style.transform = 'translate(-50%, -50%) rotate(0deg)');
+    images[index].style.transform = `translate(-50%, -50%) rotate(${-360 / totalImages * index}deg)`;
   }
 
-  setInterval(nextImage, 3000); // 每3秒切换一次图片
+  setInterval(rotateCarousel, 3000);
 </script>
+
 </body>
+</html>
+
+## About Me
+<div style="text-align:justify;">
+Associate Professor Guanghui Yue's research group specializes in intelligent medical image processing, and includes students Xizhang Yao and Songbai Tan.
+</div>
+
+## News
+<div style="text-align:justify;">
+&#x1F44F;&#x1F44F;&#x1F44F;One Paper <a href="https://www.example.com">*******</a> is accepted by IEEE Transactions on Image Processing !!!
+</div>
+
+## Projects
+<div style="text-align:justify;">
+<a href="https://www.example.com">Project One </a> is here.
+</div>
+
 
 <!--
 
