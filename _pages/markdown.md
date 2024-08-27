@@ -7,6 +7,9 @@ redirect_from:
   - /markdown.html
 ---
 
+## 2021 graduate
+[2021-graduate]("/images/2021graduate.png")
+
 ## Locations of key files/directories
 
 * Basic config options: _config.yml
