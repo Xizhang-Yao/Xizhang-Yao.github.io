@@ -8,7 +8,8 @@ redirect_from:
 
 <div style="text-align:justify;">
 Multiple positions (Associate Researcher, Postdoc Researcher, Research AssistantPostgraduates) are available. Contact Dr. Huang if you are interested (yueguanghui@szu.edu.cn)
-  </div>
+</div>
+
 - **Associate Researcher**: Ph.D. in Biomedical Engineering or a related field, withmultiple first-author/ corresponding author SCl publications and experience insuccessfully applying for projects preferred.
 - **Postdoc Researcher**: Ph.D. in a relevant field, with at least 2 first-author SClpublications during their Ph.D. studies.
 - **Research Assistant**: Bachelor's degree, strong English proficiency, and a diligent andresponsible work ethic.
