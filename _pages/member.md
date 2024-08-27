@@ -54,7 +54,7 @@ redirect_from:
   
   <!-- 博士生 -->
   <div class="member">
-    <img src="/images/yicun.png" alt="Xizhang Yao">
+    <img src="/images/yaoxizhang_jianshen.png" alt="Xizhang Yao">
     <div class="member-info">
       <div class="member-title">Xizhang Yao 姚习章</div>
       <div>PhD student starting from 2020.</div>
