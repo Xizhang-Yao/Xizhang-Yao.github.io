@@ -32,9 +32,9 @@ redirect_from:
 <body>
 
 <div class="carousel">
-  <img src="image1.jpg" alt="Image 1" class="active">
-  <img src="image2.jpg" alt="Image 2">
-  <img src="image3.jpg" alt="Image 3">
+  <img src="/images/xiaoyue.png" alt="Image 1" class="active">
+  <img src="/images/xiaoyue.png" alt="Image 2">
+  <img src="/images/xiaoyue.png" alt="Image 3">
   <!-- 更多图片 -->
 </div>
 
