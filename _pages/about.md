@@ -20,7 +20,7 @@ Associate Professor Guanghui Yue's research group specializes in intelligent med
 <div style="text-align:justify;">
 <a href="https://www.example.com">Project One </a> is here.
 </div>
-
+<head>
 <style>
   .carousel {
     overflow: hidden;
