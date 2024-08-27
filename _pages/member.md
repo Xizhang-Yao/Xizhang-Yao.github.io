@@ -46,7 +46,7 @@ redirect_from:
   <div class="member">
     <img src="/images/xiaoyue.png" alt="Dr. Xiao Yue">
     <div class="member-info">
-      <div class="member-title">Dr. Xiao Yue </div>
+      <div class="member-title">Dr. Guanghui Yue </div>
       <div>Associate Professor at Shenzhen University.</div>
       <div>Research interests include midecal image processing.</div>
     </div>
