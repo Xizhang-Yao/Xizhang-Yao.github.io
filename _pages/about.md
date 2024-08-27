@@ -7,62 +7,6 @@ redirect_from:
   - /about.html
 ---
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>图片转盘</title>
-<style>
-  .carousel {
-    position: relative;
-    width: 300px;
-    height: 300px;
-    border-radius: 50%;
-    overflow: hidden;
-    margin: 50px auto;
-  }
-  .carousel img {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-  .carousel img:nth-child(1) { transform: rotate(0deg) translate(50%); }
-  .carousel img:nth-child(2) { transform: rotate(-45deg) translate(50%); }
-  .carousel img:nth-child(3) { transform: rotate(-90deg) translate(50%); }
-  .carousel img:nth-child(4) { transform: rotate(-135deg) translate(50%); }
-  /* 根据图片数量继续添加 */
-</style>
-</head>
-<body>
-
-<div class="carousel">
-  <img src="/images/xiaoyue.png" alt="Image 1">
-  <img src="/images/xiaoyue.png" alt="Image 2">
-  <img src="/images/xiaoyue.png" alt="Image 3">
-  <img src="/images/xiaoyue.png" alt="Image 4">
-  <!-- 更多图片 -->
-</div>
-
-<script>
-  let index = 0;
-  const images = document.querySelectorAll('.carousel img');
-  const totalImages = images.length;
-
-  function rotateCarousel() {
-    index = (index + 1) % totalImages;
-    const carousel = document.querySelector('.carousel');
-    carousel.style.transition = 'transform 1s';
-    carousel.style.transform = `rotate(${-360 / totalImages * index}deg)`;
-  }
-
-  setInterval(rotateCarousel, 3000);
-</script>
-
-</body>
-</html>
-
 ## About Me
 <div style="text-align:justify;">
 Associate Professor Guanghui Yue's research group specializes in intelligent medical image processing, and includes students Xizhang Yao and Songbai Tan.
@@ -73,10 +17,14 @@ Associate Professor Guanghui Yue's research group specializes in intelligent med
 &#x1F44F;&#x1F44F;&#x1F44F;One Paper <a href="https://www.example.com">*******</a> is accepted by IEEE Transactions on Image Processing !!!
 </div>
 
-## Projects
+## Mmebers
 <div style="text-align:justify;">
 <a href="https://www.example.com">Project One </a> is here.
 </div>
+
+## Parters
+- Tianwei Zhou
+- Wei Zhou
 
 
 <!--
