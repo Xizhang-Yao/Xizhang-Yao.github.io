@@ -1,10 +1,10 @@
 ---
-permalink: /member/
+permalink: /members/
 title: "The Album of the Lab"
 author_profile: true
 redirect_from: 
-  - /member/
-  - /member.html
+  - /members/
+  - /members.html
 ---
 
 ## 2021 graduate
