@@ -5,5 +5,75 @@ author_profile: true
 redirect_from: 
 ---
 
-## 2021 graduate
-<img src='/images/xiaoyue.png'>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>课题组成员</title>
+<style>
+  .team-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .member {
+    width: 50%;
+    margin: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+  }
+  .member img {
+    width: 150px;
+    height: auto;
+    border-radius: 50%; /* 圆形图片 */
+    margin-right: 20px;
+  }
+  .member-info {
+    flex-grow: 1;
+  }
+  .member-title {
+    font-weight: bold;
+  }
+</style>
+</head>
+<body>
+
+<div class="team-container">
+  <!-- 导师 -->
+  <div class="member">
+    <img src="image/xiaoyue.png" alt="Dr. Xiao Yue">
+    <div class="member-info">
+      <div class="member-title">Dr. Xiao Yue </div>
+      <div>Assistant Professor at IllS, Tsinghua University.</div>
+      <div>Research interests include multi-modal machine learning, robotics and autonomous driving.</div>
+    </div>
+  </div>
+  
+  <!-- 博士生 -->
+  <div class="member">
+    <img src="image/yicun.png" alt="Xizhang Yao">
+    <div class="member-info">
+      <div class="member-title">Xizhang Yao 姚习章</div>
+      <div>PhD student starting from 2020.</div>
+      <div>Interested in learning models and multi-modal applications of foundation.</div>
+    </div>
+  </div>
+  <!-- 更多博士生... -->
+  
+  <!-- 硕士生 -->
+  <div class="member">
+    <img src="images/tansongbai.png" alt="Songbai Tan">
+    <div class="member-info">
+      <div class="member-title">Songbai Tan 谭松柏</div>
+      <div>PhD student starting from 2021.</div>
+      <div>Interested in autonomous driving.</div>
+    </div>
+  </div>
+  <!-- 更多硕士生... -->
+</div>
+
+</body>
+</html>
