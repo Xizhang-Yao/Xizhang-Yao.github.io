@@ -9,7 +9,7 @@ redirect_from:
 
 ## 2021 graduate
 <img src='/images/xiaoyue.png'>
-
+![示例图片]('/images/xiaoyue.png' "示例图片的标题")
 ## Locations of key files/directories
 
 * Basic config options: _config.yml
