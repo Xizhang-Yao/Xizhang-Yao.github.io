@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Your Name / Site Title"
+title                    : "Y-Lab"
 title_separator          : "-"
 name                     : &name "Your Name"
 description              : &description "personal description"
@@ -24,11 +24,11 @@ author:
   avatar           : "xiaoyue.png"
   name             : "Guanghui Yue"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
+  bio              : "Associate Professor Specializes in Intelligent Medical Image Processing"
   location         : "Shenzhen, China"
   employer         : "Shenzhen University"
   uri              : # URL
-  email            : "none@example.org" 
+  email            : "yueguanghui@szu.edu.cn" 
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
