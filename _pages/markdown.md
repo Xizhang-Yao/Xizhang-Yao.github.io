@@ -8,7 +8,7 @@ redirect_from:
 ---
 
 ## 2021 graduate
-<img src='/images/xiaoyue.png'>
+<img src='/images/2021graduate.png'>
 
 ## Locations of key files/directories
 
