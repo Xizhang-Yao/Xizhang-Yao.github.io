@@ -20,6 +20,7 @@ Associate Professor Guanghui Yue's research group specializes in intelligent med
 <div style="text-align:justify;">
 <a href="https://www.example.com">Project One </a> is here.
 </div>
+
 <style>
   .carousel {
     overflow: hidden;
@@ -39,7 +40,8 @@ Associate Professor Guanghui Yue's research group specializes in intelligent med
 
 <div class="carousel">
   <img src="/images/xiaoyue.png" alt="Image 1">
-  <img src="/images/2021graduate.png" alt="Image 2">
+  <img src="/images/xiaoyue.png" alt="Image 2">
+  <img src="/images/xiaoyue.png" alt="Image 3">
   <!-- 更多图片 -->
 </div>
 
