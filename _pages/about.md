@@ -6,6 +6,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -15,44 +16,106 @@ redirect_from:
 <style>
   .carousel {
     position: relative;
-    width: 300px;
-    height: 300px;
+    width: 600px;
+    height: 400px;
     margin: auto;
     overflow: hidden;
   }
   .carousel img {
     width: 100%;
     display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
   }
   .carousel img.active {
     display: block;
+  }
+  .carousel-indicators {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .carousel-indicators span {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #ccc;
+    margin: 0 5px;
+    cursor: pointer;
+  }
+  .carousel-indicators span.active {
+    background-color: #333;
+  }
+  .carousel-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+  }
+  .carousel-btn.prev {
+    left: 10px;
+  }
+  .carousel-btn.next {
+    right: 10px;
   }
 </style>
 </head>
 <body>
 
 <div class="carousel">
-  <img src="/images/xiaoyue.png" alt="Image 1" class="active">
-  <img src="/images/xiaoyue.png" alt="Image 2">
-  <img src="/images/xiaoyue.png" alt="Image 3">
+  <img src="image1.jpg" alt="Image 1" class="active">
+  <img src="image2.jpg" alt="Image 2">
+  <img src="image3.jpg" alt="Image 3">
   <!-- 更多图片 -->
+  <div class="carousel-indicators">
+    <span class="active" onclick="moveToSlide(0)"></span>
+    <span onclick="moveToSlide(1)"></span>
+    <span onclick="moveToSlide(2)"></span>
+    <!-- 更多圆点 -->
+  </div>
+  <button class="carousel-btn prev" onclick="changeSlide(-1)">&#10094;</button>
+  <button class="carousel-btn next" onclick="changeSlide(1)">&#10095;</button>
 </div>
 
 <script>
-  const images = document.querySelectorAll('.carousel img');
   let index = 0;
+  const images = document.querySelectorAll('.carousel img');
+  const indicators = document.querySelectorAll('.carousel-indicators span');
+  const totalImages = images.length;
 
-  function changeImage() {
+  function changeSlide(step) {
     images[index].classList.remove('active');
-    index = (index + 1) % images.length;
+    indicators[index].classList.remove('active');
+    index = (index + step + totalImages) % totalImages;
     images[index].classList.add('active');
+    indicators[index].classList.add('active');
   }
 
-  setInterval(changeImage, 3000);
+  function moveToSlide(slideIndex) {
+    images[index].classList.remove('active');
+    indicators[index].classList.remove('active');
+    index = slideIndex;
+    images[index].classList.add('active');
+    indicators[index].classList.add('active');
+  }
+
+  setInterval(() => changeSlide(1), 1000);
+
+  window.onload = () => {
+    images[0].classList.add('active');
+    indicators[0].classList.add('active');
+  };
 </script>
 
 </body>
 </html>
+
 ## About Our Lab
 <div style="text-align:justify;">
 Associate Professor Guanghui Yue's research Lab specializes in intelligent medical image processing, and includes students Xizhang Yao and Songbai Tan.
