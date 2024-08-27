@@ -20,7 +20,42 @@ Associate Professor Guanghui Yue's research group specializes in intelligent med
 <div style="text-align:justify;">
 <a href="https://www.example.com">Project One </a> is here.
 </div>
+<style>
+  .carousel {
+    overflow: hidden;
+    white-space: nowrap;
+    width: 600px; /* 轮播容器的宽度 */
+  }
+  .carousel img {
+    width: 600px; /* 图片的宽度，与容器宽度相同 */
+    display: inline-block;
+  }
+  .hidden {
+    display: none;
+  }
+</style>
+</head>
+<body>
 
+<div class="carousel">
+  <img src="/images/xiaoyue.png" alt="Image 1">
+  <img src="/images/2021graduate.png" alt="Image 2">
+  <!-- 更多图片 -->
+</div>
+
+<script>
+  let index = 0;
+  const images = document.querySelectorAll('.carousel img');
+  const totalImages = images.length;
+
+  function nextImage() {
+    index = (index + 1) % totalImages;
+    images.forEach(img => img.classList.add('hidden'));
+    images[index].classList.remove('hidden');
+  }
+
+  setInterval(nextImage, 3000); // 每3秒切换一次图片
+</script>
 <!--
 
 <div style="text-align:justify;">
