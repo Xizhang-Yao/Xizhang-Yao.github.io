@@ -47,8 +47,8 @@ redirect_from:
     <img src="/images/xiaoyue.png" alt="Dr. Xiao Yue">
     <div class="member-info">
       <div class="member-title">Dr. Xiao Yue </div>
-      <div>Assistant Professor at IllS, Tsinghua University.</div>
-      <div>Research interests include multi-modal machine learning, robotics and autonomous driving.</div>
+      <div>Associate Professor at Shenzhen University.</div>
+      <div>Research interests include midecal image processing.</div>
     </div>
   </div>
   
