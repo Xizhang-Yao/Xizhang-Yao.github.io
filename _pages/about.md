@@ -107,7 +107,7 @@ redirect_from:
     indicators[index].classList.add('active');
   }
 
-  setInterval(() => changeSlide(1), 1500);
+  setInterval(() => changeSlide(1), 1000);
 
   window.onload = () => {
     images[0].classList.add('active');
