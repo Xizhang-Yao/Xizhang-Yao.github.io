@@ -1,5 +1,5 @@
 ---
-permalink: /Positions/
+permalink: /position/
 title: "Positions"
 author_profile: true
 redirect_from: 
@@ -7,3 +7,4 @@ redirect_from:
   - /position.html
 ---
 
+## Graduates
