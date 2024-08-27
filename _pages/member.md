@@ -3,7 +3,6 @@ permalink: /members/
 title: "The Album of the Lab"
 author_profile: true
 redirect_from: 
-  - /members/
 ---
 
 ## 2021 graduate
