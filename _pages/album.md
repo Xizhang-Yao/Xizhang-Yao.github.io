@@ -1,6 +1,6 @@
 ---
 permalink: /album/
-title: "Markdown"
+title: "The Album of the Lab"
 author_profile: true
 redirect_from: 
   - /album/
