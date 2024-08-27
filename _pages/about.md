@@ -78,6 +78,7 @@ redirect_from:
     <span class="active" onclick="moveToSlide(0)"></span>
     <span onclick="moveToSlide(1)"></span>
     <span onclick="moveToSlide(2)"></span>
+    <span onclick="moveToSlide(3)"></span>
     <!-- 更多圆点 -->
   </div>
   <button class="carousel-btn prev" onclick="changeSlide(-1)">&#10094;</button>
