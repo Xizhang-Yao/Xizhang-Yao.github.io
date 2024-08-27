@@ -9,10 +9,10 @@ main:
     url: /publications/
 
   - title: "Members"
-    url: /portfolio/
+    url: /members/
 
   - title: "Positions"
-    url: /cv/
+    url: /position/
     
   - title: "Album"
-    url: /markdown/
+    url: /album/
