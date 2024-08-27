@@ -56,6 +56,8 @@ Associate Professor Guanghui Yue's research group specializes in intelligent med
 
   setInterval(nextImage, 3000); // 每3秒切换一次图片
 </script>
+</body>
+
 <!--
 
 <div style="text-align:justify;">
