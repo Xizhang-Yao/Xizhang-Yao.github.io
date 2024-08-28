@@ -25,7 +25,7 @@ redirect_from:
     padding: 20px;
   }
   .advisor-box {
-    width: 100%; /* Full width for the advisor */
+    width: 60%; /* Full width for the advisor */
     border: 1px solid #ccc;
     padding: 20px;
     text-align: center;
