@@ -5,6 +5,7 @@ author_profile: true
 redirect_from: 
 ---
 
+<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
@@ -12,34 +13,29 @@ redirect_from:
 <title>Research Group Members</title>
 <style>
   body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
     margin: 0;
     font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
   }
   .team-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
-    width: 100%;
-    max-width: 1200px; /* Adjust the max-width as needed */
+    padding: 20px;
   }
   .advisor-box {
-    width: 100%; /* Take full width for the advisor */
+    width: calc(400px - 20px); /* 2倍宽度减去间距 */
     border: 1px solid #ccc;
     padding: 20px;
     text-align: center;
-    box-sizing: border-box;
+    margin-bottom: 20px; /* 底部间距 */
   }
   .member-box {
-    width: calc(33% - 20px); /* Adjust the width for 3 columns */
+    width: calc(200px - 20px); /* 基础宽度减去间距 */
     border: 1px solid #ccc;
     padding: 10px;
     text-align: center;
-    box-sizing: border-box;
   }
   .member-photo {
     width: 150px; /* Larger size for advisor */
