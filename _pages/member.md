@@ -25,14 +25,14 @@ redirect_from:
     padding: 20px;
   }
   .advisor-box {
-    width: calc(400px - 20px); /* 2倍宽度减去间距 */
+    width: 100%; /* Full width for the advisor */
     border: 1px solid #ccc;
     padding: 20px;
     text-align: center;
-    margin-bottom: 20px; /* 底部间距 */
+    margin-bottom: 20px; /* Bottom margin for spacing */
   }
   .member-box {
-    width: calc(200px - 20px); /* 基础宽度减去间距 */
+    width: calc(33.33% - 20px); /* Adjust the width for 3 columns */
     border: 1px solid #ccc;
     padding: 10px;
     text-align: center;
@@ -58,15 +58,15 @@ redirect_from:
 </head>
 <body>
 
-<div class="team-container">
-  <!-- Principle Investigator -->
-  <div class="advisor-box">
-    <img src="/images/xiaoyue.png" alt="Dr. Guanghui Yue" class="member-photo">
-    <div class="member-name">Dr. Guanghui Yue</div>
-    <div class="member-position">Associate Professor at Shenzhen University</div>
-    <div class="member-interests">Research Field: Biomedical Image Processing</div>
-  </div>
+<!-- Principle Investigator -->
+<div class="advisor-box">
+  <img src="/images/xiaoyue.png" alt="Dr. Guanghui Yue" class="member-photo">
+  <div class="member-name">Dr. Guanghui Yue</div>
+  <div class="member-position">Associate Professor at Shenzhen University</div>
+  <div class="member-interests">Research Field: Biomedical Image Processing</div>
+</div>
 
+<div class="team-container">
   <!-- PhD Student -->
   <div class="member-box">
     <img src="/images/yaoxizhang_jianshen.png" alt="Xizhang Yao" class="member-photo small">
