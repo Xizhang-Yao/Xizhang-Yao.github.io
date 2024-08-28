@@ -117,7 +117,7 @@ redirect_from:
     <img src="/images/liwentao.png" alt="Wentao Li" class="member-photo">
     <div class="member-info">
       <div class="member-name">Wentao Li</div>
-      <div class="member-position">Master Student</div>
+      <div class="member-position">Master Student, Enrolled in 2023</div>
       <div class="member-interests">Research Field: Image Registration</div>
     </div>
   </div>
@@ -125,7 +125,7 @@ redirect_from:
     <img src="/images/wushangjie.png" alt="Shangjie Wu" class="member-photo">
     <div class="member-info">
       <div class="member-name">Shangjie Wu</div>
-      <div class="member-position">Master Student</div>
+      <div class="member-position">Master Student, Enrolled in 2023</div>
       <div class="member-interests">Research Field: Image Segmentation</div>
     </div>
   </div>
