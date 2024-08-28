@@ -11,23 +11,35 @@ redirect_from:
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Research Group Members</title>
 <style>
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
   .team-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
+    width: 100%;
+    max-width: 1200px; /* Adjust the max-width as needed */
   }
   .advisor-box {
-    width: 300px;
+    width: 100%; /* Take full width for the advisor */
     border: 1px solid #ccc;
     padding: 20px;
     text-align: center;
+    box-sizing: border-box;
   }
   .member-box {
-    width: 200px;
+    width: calc(33% - 20px); /* Adjust the width for 3 columns */
     border: 1px solid #ccc;
     padding: 10px;
     text-align: center;
+    box-sizing: border-box;
   }
   .member-photo {
     width: 150px; /* Larger size for advisor */
@@ -46,24 +58,19 @@ redirect_from:
   .member-position, .member-interests {
     margin-top: 5px;
   }
-  .advisor-row {
-    width: 100%;
-  }
 </style>
 </head>
 <body>
 
-<div class="advisor-row">
+<div class="team-container">
   <!-- Principle Investigator -->
   <div class="advisor-box">
-    <img src="/images/xiaoyue.png" alt="Dr. Guanghui Yue" class="member-photo" >
+    <img src="/images/xiaoyue.png" alt="Dr. Guanghui Yue" class="member-photo">
     <div class="member-name">Dr. Guanghui Yue</div>
     <div class="member-position">Associate Professor at Shenzhen University</div>
     <div class="member-interests">Research Field: Biomedical Image Processing</div>
   </div>
-</div>
 
-<div class="team-container">
   <!-- PhD Student -->
   <div class="member-box">
     <img src="/images/yaoxizhang_jianshen.png" alt="Xizhang Yao" class="member-photo small">
