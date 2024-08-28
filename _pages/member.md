@@ -4,7 +4,7 @@ title: "The Album of the Lab"
 author_profile: true
 redirect_from: 
 ---
-<!DOCTYPE html>
+
 <html lang="en">
 <head>
 <meta charset="UTF-8">
@@ -12,93 +12,65 @@ redirect_from:
 <title>Research Group Members</title>
 <style>
   .team-container {
-    display: grid;
-    grid-template-columns: 1fr;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     gap: 20px;
-    padding: 20px;
+  }
+  .member-box {
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 200px;
     text-align: center;
   }
-  .advisor {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    margin-bottom: 20px;
-  }
-  .advisor img {
-    width: 150px;
-    height: auto;
-    border-radius: 50%; /* Circular image */
-    margin-bottom: 10px;
-  }
-  .students {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
-  }
-  .member {
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-  }
-  .member img {
+  .member-photo {
     width: 100px;
-    height: auto;
+    height: 100px;
     border-radius: 50%; /* Circular image */
-    margin-right: 20px;
-    flex-shrink: 0;
+    margin: 10px auto;
   }
-  .member-info {
-    flex-grow: 1;
-  }
-  .member-title {
+  .member-name {
+    margin-top: 10px;
     font-weight: bold;
+  }
+  .member-position, .member-interests {
+    margin-top: 5px;
   }
 </style>
 </head>
 <body>
 
 <div class="team-container">
-  <!-- Advisor -->
-  <div class="advisor">
-    <img src="/images/xiaoyue.png" alt="Dr. Guanghui Yue">
-    <div class="member-title">Dr. Guanghui Yue</div>
-    <div>Associate Professor at Shenzhen University</div>
-    <div>Research Field: Biomedical Image Processing</div>
+  <!-- Principle Investigator -->
+  <div class="member-box">
+    <img src="/images/xiaoyue.png" alt="Dr. Guanghui Yue" class="member-photo">
+    <div class="member-name">Dr. Guanghui Yue</div>
+    <div class="member-position">Associate Professor at Shenzhen University</div>
+    <div class="member-interests">Research Field: Biomedical Image Processing</div>
   </div>
-  
-  <!-- Students -->
-  <div class="students">
-    <!-- PhD Student -->
-    <div class="member">
-      <img src="/images/yaoxizhang_jianshen.png" alt="Xizhang Yao">
-      <div class="member-info">
-        <div class="member-title">Xizhang Yao</div>
-        <div>PhD Student, Enrolled in 2024</div>
-        <div>Research Field: Image Quality Assessment</div>
-      </div>
-    </div>
-    <!-- Master Students -->
-    <div class="member">
-      <img src="/images/tansongbai.png" alt="Songbai Tan">
-      <div class="member-info">
-        <div class="member-title">Songbai Tan</div>
-        <div>Master Student, Enrolled in 2022</div>
-        <div>Research Field: Image Quality Assessment</div>
-      </div>
-    </div>
-    <div class="member">
-      <img src="/images/songlongqi.png" alt="Longqi Song">
-      <div class="member-info">
-        <div class="member-title">Longqi Song</div>
-        <div>Master Student, Enrolled in 2023</div>
-        <div>Research Field: Image Quality Assessment</div>
-      </div>
-    </div>
-    <!-- More Master Students... -->
+
+  <!-- PhD Student -->
+  <div class="member-box">
+    <img src="/images/yaoxizhang_jianshen.png" alt="Xizhang Yao" class="member-photo">
+    <div class="member-name">Xizhang Yao</div>
+    <div class="member-position">PhD Student, Enrolled in 2024</div>
+    <div class="member-interests">Research Field: Image Quality Assessment</div>
+  </div>
+
+  <!-- Master Students -->
+  <div class="member-box">
+    <img src="/images/tansongbai.png" alt="Songbai Tan" class="member-photo">
+    <div class="member-name">Songbai Tan</div>
+    <div class="member-position">Master Student, Enrolled in 2022</div>
+    <div class="member-interests">Research Field: Image Quality Assessment</div>
+  </div>
+  <div class="member-box">
+    <img src="/images/songlongqi.png" alt="Longqi Song" class="member-photo">
+    <div class="member-name">Longqi Song</div>
+    <div class="member-position">Master Student, Enrolled in 2023</div>
+    <div class="member-interests">Research Field: Image Quality Assessment</div>
   </div>
 </div>
 
 </body>
 </html>
-
