@@ -28,7 +28,6 @@ redirect_from:
     margin: 20px auto; /* Center the advisor box */
     display: flex;
     align-items: center;
-    justify-content: center;
   }
   .advisor-photo {
     width: 150px; /* Fixed size for advisor photo */
@@ -111,6 +110,23 @@ redirect_from:
       <div class="member-name">Longqi Song</div>
       <div class="member-position">Master Student, Enrolled in 2023</div>
       <div class="member-interests">Research Field: Image Quality Assessment</div>
+    </div>
+  </div>
+  <!-- New Master Students -->
+  <div class="member-box">
+    <img src="/images/liwentao.png" alt="Wentao Li" class="member-photo">
+    <div class="member-info">
+      <div class="member-name">Wentao Li</div>
+      <div class="member-position">Master Student</div>
+      <div class="member-interests">Research Field: Image Registration</div>
+    </div>
+  </div>
+  <div class="member-box">
+    <img src="/images/wushangjie.png" alt="Shangjie Wu" class="member-photo">
+    <div class="member-info">
+      <div class="member-name">Shangjie Wu</div>
+      <div class="member-position">Master Student</div>
+      <div class="member-interests">Research Field: Image Segmentation</div>
     </div>
   </div>
   <!-- Add more members as needed -->
