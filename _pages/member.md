@@ -31,8 +31,8 @@ redirect_from:
     justify-content: center;
   }
   .advisor-photo {
-    width: 30%; /* Size for advisor photo */
-    height: auto;
+    width: 150px; /* Fixed size for advisor photo */
+    height: 150px;
     border-radius: 50%; /* Circular image */
     margin-right: 20px;
   }
@@ -48,10 +48,10 @@ redirect_from:
     text-align: center;
   }
   .member-photo {
-    width: 80%; /* Size for member photo */
-    height: auto;
+    width: 150px; /* Fixed size for member photo */
+    height: 150px;
     border-radius: 50%; /* Circular image */
-    margin: 10px auto;
+    margin: 10px auto 20px; /* Center the photo and add space below */
   }
   .member-info {
     margin-top: 10px;
