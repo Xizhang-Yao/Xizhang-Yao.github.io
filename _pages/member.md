@@ -4,7 +4,6 @@ title: "The Members of the Lab"
 author_profile: true
 redirect_from: 
 ---
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -17,12 +16,19 @@ redirect_from:
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
   }
-  .team-container {
+  .advisor-container {
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
-    gap: 20px;
+    width: 100%;
+  }
+  .advisor-box {
+    width: 70%; /* 70% width for the advisor */
+    border: 1px solid #ccc;
     padding: 20px;
+    text-align: center;
+    margin: 20px auto; /* Center the advisor box */
+    display: flex;
+    align-items: center;
   }
   .member-box {
     display: flex;
@@ -30,6 +36,7 @@ redirect_from:
     width: calc(33.33% - 20px); /* Adjust the width for 3 columns */
     border: 1px solid #ccc;
     padding: 20px;
+    margin-bottom: 20px; /* Space below each member box */
     box-sizing: border-box;
   }
   .member-photo {
@@ -48,24 +55,26 @@ redirect_from:
   .member-position, .member-interests {
     margin-top: 5px;
   }
-  .advisor-box {
-    width: 100%; /* Full width for the advisor */
-    border: 1px solid #ccc;
+  .team-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
     padding: 20px;
-    text-align: center;
-    margin-bottom: 20px; /* Bottom margin for spacing */
   }
 </style>
 </head>
 <body>
 
-<!-- Principle Investigator -->
-<div class="advisor-box">
-  <div class="member-photo" style="width: 200px; height: 200px;"></div>
-  <div class="member-info">
-    <div class="member-name">Dr. Guanghui Yue</div>
-    <div class="member-position">Associate Professor at Shenzhen University</div>
-    <div class="member-interests">Research Field: Biomedical Image Processing</div>
+<div class="advisor-container">
+  <!-- Principle Investigator -->
+  <div class="advisor-box">
+    <img src="/images/xiaoyue.png" alt="Dr. Guanghui Yue" class="member-photo">
+    <div class="member-info">
+      <div class="member-name">Dr. Guanghui Yue</div>
+      <div class="member-position">Associate Professor at Shenzhen University</div>
+      <div class="member-interests">Research Field: Biomedical Image Processing</div>
+    </div>
   </div>
 </div>
 
