@@ -4,6 +4,7 @@ title: "The Members of the Lab"
 author_profile: true
 redirect_from: 
 ---
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -17,39 +18,45 @@ redirect_from:
     background-color: #f4f4f4;
   }
   .advisor-container {
-    display: flex;
-    justify-content: center;
     width: 100%;
+    text-align: center;
   }
   .advisor-box {
     width: 70%; /* 70% width for the advisor */
     border: 1px solid #ccc;
     padding: 20px;
-    text-align: center;
     margin: 20px auto; /* Center the advisor box */
     display: flex;
     align-items: center;
+    justify-content: center;
+  }
+  .advisor-photo {
+    width: 30%; /* Size for advisor photo */
+    height: auto;
+    border-radius: 50%; /* Circular image */
+    margin-right: 20px;
+  }
+  .advisor-info {
+    flex-grow: 1;
   }
   .member-box {
-    display: flex;
-    align-items: center;
     width: calc(33.33% - 20px); /* Adjust the width for 3 columns */
     border: 1px solid #ccc;
     padding: 20px;
     margin-bottom: 20px; /* Space below each member box */
     box-sizing: border-box;
+    text-align: center;
   }
   .member-photo {
-    width: 150px; /* Size for photos */
-    height: 150px;
+    width: 80%; /* Size for member photo */
+    height: auto;
     border-radius: 50%; /* Circular image */
-    margin-right: 20px;
+    margin: 10px auto;
   }
   .member-info {
-    flex-grow: 1;
+    margin-top: 10px;
   }
   .member-name {
-    margin-top: 0;
     font-weight: bold;
   }
   .member-position, .member-interests {
@@ -69,8 +76,8 @@ redirect_from:
 <div class="advisor-container">
   <!-- Principle Investigator -->
   <div class="advisor-box">
-    <img src="/images/xiaoyue.png" alt="Dr. Guanghui Yue" class="member-photo">
-    <div class="member-info">
+    <img src="/images/xiaoyue.png" alt="Dr. Guanghui Yue" class="advisor-photo">
+    <div class="advisor-info">
       <div class="member-name">Dr. Guanghui Yue</div>
       <div class="member-position">Associate Professor at Shenzhen University</div>
       <div class="member-interests">Research Field: Biomedical Image Processing</div>
