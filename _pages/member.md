@@ -1,6 +1,6 @@
 ---
 permalink: /members/
-title: "The Album of the Lab"
+title: "The Members of the Lab"
 author_profile: true
 redirect_from: 
 ---
