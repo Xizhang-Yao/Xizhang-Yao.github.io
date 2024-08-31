@@ -117,7 +117,7 @@ redirect_from:
     <div class="member-info">
       <div class="member-name">Shaoping Zhang<br>( 张绍萍 )</div>
       <div class="member-position">Postgraduate Student<br>Enrolled in 2022</div>
-      <div class="member-interests">Research Field: Image Quality Assessment and Image Enhancement</div>
+      <div class="member-interests">Research Field: Image Quality Assessment and Enhancement</div>
     </div>
   </div>
   <div class="member-box">
