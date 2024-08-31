@@ -177,6 +177,14 @@ redirect_from:
       <div class="member-interests">Research Field: Medical Image Segmentation</div>
     </div>
   </div>
+   <div class="member-box">
+    <img src="/images/denglishan.png" alt="Lishan Deng" class="member-photo">
+    <div class="member-info">
+      <div class="member-name">Lishan Deng<br>( 邓丽珊 ）</div>
+      <div class="member-position">Postgraduate Student<br>Enrolled in 2024</div>
+      <div class="member-interests">Research Field: Image Quality Assessment</div>
+    </div>
+  </div>
   <div class="member-box">
     <img src="/images/liyuanyan_1.png" alt="Yuanyan Li" class="member-photo">
     <div class="member-info">
