@@ -142,7 +142,7 @@ redirect_from:
     <div class="member-info">
       <div class="member-name">Shangjie Wu<br>( 吴尚杰 )</div>
       <div class="member-position">Postgraduate Student<br>Enrolled in 2023</div>
-      <div class="member-interests">Research Field: Disguised Object Detection, Medical Image Segmentation</div>
+      <div class="member-interests">Research Field: Camouflaged Object Detection, Medical Image Segmentation</div>
     </div>
   </div>
    <div class="member-box">
