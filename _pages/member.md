@@ -90,7 +90,7 @@ redirect_from:
     <div class="member-info">
       <div class="member-name">Xizhang Yao <br>( 姚习章 )</div>
       <div class="member-position">PhD Student<br>Enrolled in 2024</div>
-      <div class="member-interests">Research Field: <strong>Image Quality Assessment</strong></div>
+      <div class="member-interests">Research Field: Image Quality Assessment</div>
     </div>
   </div>
 
