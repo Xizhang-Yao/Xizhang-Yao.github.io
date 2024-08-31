@@ -30,7 +30,7 @@ redirect_from:
   }
   .advisor-photo {
     width: 150px; /* Fixed size for advisor photo */
-    height: 150px;
+    height: 180px;
     border-radius: 50%; /* Circular image */
     margin-right: 20px;
   }
