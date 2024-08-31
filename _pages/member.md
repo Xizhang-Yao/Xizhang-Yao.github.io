@@ -77,7 +77,7 @@ redirect_from:
   <div class="advisor-box">
     <img src="/images/xiaoyue.png" alt="Dr. Guanghui Yue" class="advisor-photo">
     <div class="advisor-info">
-      <div class="member-name">Dr. Guanghui Yue</div>
+      <div class="member-name">Dr. Guanghui Yue ( 岳广辉 )</div>
       <div class="member-position">Associate Professor at Shenzhen University</div>
       <div class="member-interests">Research Field: Biomedical Image Processing</div>
     </div>
@@ -89,7 +89,7 @@ redirect_from:
   <div class="member-box">
     <img src="/images/yaoxizhang_jianshen.png" alt="Xizhang Yao" class="member-photo">
     <div class="member-info">
-      <div class="member-name">Xizhang Yao <br>（ 姚习章 ）</div>
+      <div class="member-name">Xizhang Yao <br>( 姚习章 )</div>
       <div class="member-position">PhD Student, Enrolled in 2024</div>
       <div class="member-interests">Research Field: Image Quality Assessment</div>
     </div>
