@@ -134,7 +134,7 @@ redirect_from:
     <div class="member-info">
       <div class="member-name">Wentao Li<br>( 李文韬 )</div>
       <div class="member-position">Postgraduate Student<br>Enrolled in 2023</div>
-      <div class="member-interests">Research Field: "Image Fusion and Registration"
+      <div class="member-interests">Research Field: Image Fusion and Registration
 </div>
     </div>
   </div>
