@@ -89,7 +89,7 @@ redirect_from:
   <div class="member-box">
     <img src="/images/yaoxizhang_jianshen.png" alt="Xizhang Yao" class="member-photo">
     <div class="member-info">
-      <div class="member-name">Xizhang Yao</div>
+      <div class="member-name">Xizhang Yao (姚习章）</div>
       <div class="member-position">PhD Student, Enrolled in 2024</div>
       <div class="member-interests">Research Field: Image Quality Assessment</div>
     </div>
@@ -102,6 +102,22 @@ redirect_from:
       <div class="member-name">Songbai Tan</div>
       <div class="member-position">Master Student, Enrolled in 2022</div>
       <div class="member-interests">Research Field: Image Quality Assessment</div>
+    </div>
+  </div>
+  <div class="member-box">
+    <img src="/images/zhanglixin.png" alt="Lixin Zhang" class="member-photo">
+    <div class="member-info">
+      <div class="member-name">Lixin Zhang</div>
+      <div class="member-position">Master Student, Enrolled in 2022</div>
+      <div class="member-interests">Research Field: Video Quality Assessment and Enhancement</div>
+    </div>
+  </div>
+  <div class="member-box">
+    <img src="/images/zhangshaoping.png" alt="Shaoping Zhang" class="member-photo">
+    <div class="member-info">
+      <div class="member-name">Shaoping Zhang</div>
+      <div class="member-position">Master Student, Enrolled in 2022</div>
+      <div class="member-interests">Research Field: Image Quality Assessment and Image Enhancement</div>
     </div>
   </div>
   <div class="member-box">
@@ -129,6 +145,15 @@ redirect_from:
       <div class="member-interests">Research Field: Image Segmentation</div>
     </div>
   </div>
+   <div class="member-box">
+    <img src="/images/liuwanqing.png" alt="Wanqing Liu" class="member-photo">
+    <div class="member-info">
+      <div class="member-name">Wanqing Liu</div>
+      <div class="member-position">Master Student, Enrolled in 2023</div>
+      <div class="member-interests">Research Field: Medical Image Enhancement</div>
+    </div>
+  </div>
+  
   <!-- Add more members as needed -->
 </div>
 
